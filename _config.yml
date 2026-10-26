@@ -6,11 +6,11 @@ description: 记录学习、项目，和一些没想明白的事
 author: 你的名字
 email: you@example.com
 
-# 站点地址：把 YOURNAME 换成你的 GitHub 用户名（全小写）
-# - 仓库名叫 <用户名>.github.io  ->  url 写 https://<用户名>.github.io ，baseurl 留空
-# - 仓库名叫 blog 等普通名字      ->  url 写 https://<用户名>.github.io ，baseurl 写 /blog
-url: "https://YOURNAME.github.io"
-baseurl: ""
+# 站点地址：已按你的仓库 Changee25/my-blog 填好
+# 仓库名是 my-blog，属于「项目站」，网址是 https://changee25.github.io/my-blog/
+# 以后如果把仓库改名为 Changee25.github.io，就把 baseurl 改回 ""
+url: "https://changee25.github.io"
+baseurl: "/my-blog"
 
 # ============================================
 # 主题：minima 是 GitHub Pages 官方支持的主题，不用自己写样式
