@@ -1,0 +1,43 @@
+# ============================================
+# 站点基础信息：这三项一定要改成你自己的
+# ============================================
+title: 我的个人博客
+description: 记录学习、项目，和一些没想明白的事
+author: 你的名字
+email: you@example.com
+
+# 站点地址：把 YOURNAME 换成你的 GitHub 用户名（全小写）
+# - 仓库名叫 <用户名>.github.io  ->  url 写 https://<用户名>.github.io ，baseurl 留空
+# - 仓库名叫 blog 等普通名字      ->  url 写 https://<用户名>.github.io ，baseurl 写 /blog
+url: "https://YOURNAME.github.io"
+baseurl: ""
+
+# ============================================
+# 主题：minima 是 GitHub Pages 官方支持的主题，不用自己写样式
+# ============================================
+theme: minima
+show_excerpts: true
+header_pages:
+  - about.md
+
+# ============================================
+# 语言与时间
+# ============================================
+lang: zh-CN
+timezone: Asia/Shanghai
+
+# 文章网址格式：/2026/10/26/article-name/
+permalink: /:year/:month/:day/:title/
+
+# ============================================
+# Markdown 渲染
+# ============================================
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
